@@ -1,0 +1,8 @@
+/* x-small devices  */
+@media (max-width: 575.98px) {
+    .serviceCard{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+}

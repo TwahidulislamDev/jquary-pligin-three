@@ -2,6 +2,27 @@
   margin: 0;
   padding: 0;
 }
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 0.8;
+}
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   padding: 330px;
@@ -36,7 +57,7 @@
   background-position: center;
   background-size: cover;
 }
-.prev{
+.prev {
   color: white;
   font-size: 30px;
   position: absolute;
@@ -46,7 +67,7 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
-.next{
+.next {
   color: white;
   font-size: 30px;
   position: absolute;
@@ -55,6 +76,84 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+/* Service Part Start  */
+.servicePart {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.serviceText {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", serif;
+  color: #ff5a3c;
+  text-align: center;
+}
+.serviceText h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  line-height: 120%;
+  padding: 20px 0;
+  color: #0a2c3d;
+  text-align: center;
+}
+.serviceCard {
+  text-align: center;
+  height: 450px;
+  background: #f6f7f7;
+  transition: 0.5s;
+}
+.serviceCard:hover {
+  -webkit-box-shadow: -2px -2px 15px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -2px 15px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px -2px 15px -5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.serviceImgDiv {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+.ServiceImg {
+  padding-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.serviceCard h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #0a2c3d;
+  transition: 0.5s;
+}
+.serviceCard h3:hover {
+  color: #ff5a3c;
+}
+.serviceCard p {
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  line-height: 140%;
+  color: #0a2c3d;
+  text-align: center;
+}
+.serviceCard a {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Nunito", serif;
+  line-height: 140%;
+  color: black;
+  text-align: center;
+  transition: 0.5s;
+}
+.serviceCard a:hover {
+  color: #ff5a3c;
+}
+/* Service Part End  */
 
 /*  */
 /*  */
