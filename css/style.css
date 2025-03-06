@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 330px;
+}
+.slider {
+  background: url(../images/banner01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.one {
+  background: url(../images/banner02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.two {
+  background: url(../images/banner03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.three {
+  background: url(../images/banner04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.four {
+  background: url(../images/banner05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.prev{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  z-index: 999;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.next{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/*  */
+/*  */
